@@ -5,4 +5,4 @@ tapply(mtcars$mpg, mtcars$cyl, mean) and sapply( split(mtcars$mpg, mtcars$cyl) ,
 cyl_4 <- round(mean(mtcars$hp[mtcars$cyl==4], na.rm = TRUE))
 cyl_8 <- round(mean(mtcars$hp[mtcars$cyl==8], na.rm = TRUE))
 abs(cyl_8-cyl_4)
- 
+ Execution of 'ls' will suspend at the beginning of the function and you will be in the brows
